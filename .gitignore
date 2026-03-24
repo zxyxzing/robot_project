@@ -1,0 +1,23 @@
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+
+# 模型文件（太大，不提交）
+*.pt
+*.pth
+
+# 测试图片和临时文件
+*.jpg
+*.png
+*.mp4
+data/
+logs/
+
+# IDE 配置
+.vscode/
+.idea/
+
+# 系统文件
+.DS_Store
+Thumbs.db
