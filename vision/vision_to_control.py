@@ -16,7 +16,6 @@ class VisionToControl:
         self.image_width = image_width
         self.image_height = image_height
         self.max_lost_frames = max_lost_frames
-        
         self.lost_count = 0
         self.last_valid_info = None
         
