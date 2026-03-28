@@ -218,7 +218,18 @@ class CameraCapture:
 def main():
     """主函数"""
     # 模型文件路径
-    model_path = "/home/yuan/dog/venv_yolo_follow/src/model/go2_human_follow_new.xml"
+
+# 1. 获取当前脚本所在的文件夹
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+
+# 2. 相对路径往上找，定位到 model/1.xml
+# 你的脚本在 src/scripts
+# 模型在 src/model
+# 所以 ../ 往上一级 就到 src 目录
+    xml_path = os.path.join(current_dir, "../model/1.xml")
+    model_path = os.path.abspath(xml_path)
+
+
 
     # 创建摄像头捕获器
     camera = CameraCapture(model_path, camera_name="go2_head")
