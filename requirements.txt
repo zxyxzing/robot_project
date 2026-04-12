@@ -1,0 +1,25 @@
+# 深度学习框架（角色2）
+torch==2.5.1
+torchvision==0.20.1
+
+# YOLO 目标检测（角色2）
+ultralytics==8.0.200
+
+# 图像处理（角色2）
+opencv-python==4.8.1.78
+numpy==1.24.3
+matplotlib==3.7.1
+pillow==10.0.0
+
+# 物理引擎（角色1）
+mujoco==3.1.5
+
+# 科学计算（角色3）
+scipy==1.11.4
+
+# 工具（角色4）
+pyyaml==6.0
+tqdm==4.66.1
+
+# 其他通用依赖
+pytest==7.4.3
