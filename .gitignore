@@ -1,4 +1,5 @@
 
+
 # Python 缓存
 __pycache__/
 *.pyc
@@ -25,3 +26,20 @@ Thumbs.db
 vision/yolo_env/
 yolo_env/
 yolov8n.pt
+
+# Python
+__pycache__/
+*.pyc
+yolo_env/
+venv/
+# 模型文件
+*.pt
+*.pth
+# 测试图片
+*.jpg
+*.png
+data/
+# IDE
+.vscode/
+.idea/
+
