@@ -24,3 +24,4 @@ logs/
 Thumbs.db
 vision/yolo_env/
 yolo_env/
+yolov8n.pt
